@@ -4,11 +4,9 @@ Medical Evidence Retrieval Agent for clinical questions. The app extracts a PICO
 
 ## Demo
 
-<video src="https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4" controls width="100%">
-  <a href="https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4">Watch the demo video</a>
-</video>
+[![pubmed-evidence-agents demo](https://raw.githubusercontent.com/Hossam-Amer/pubmed-evidence-agents/main/web/public/pubmed-evidence-agents-demo.gif)](https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4)
 
-[Watch the demo video](https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4)
+[Watch the full demo video](https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4)
 
 ## Pipeline
 
@@ -21,6 +19,7 @@ Medical Evidence Retrieval Agent for clinical questions. The app extracts a PICO
 - PubMed retrieval, reciprocal-rank fusion, cross-encoder reranking, answer generation, verification, confidence scoring, and cache support
 - GitHub Actions CI for backend smoke tests and frontend production builds
 - Demo video for the GitHub README at `web/public/pubmed-evidence-agents-demo.mp4`
+- Animated demo preview for the GitHub README at `web/public/pubmed-evidence-agents-demo.gif`
 - Pipeline SVG for the GitHub README at `web/public/pipeline-diagram.svg`
 
 ## Prerequisites
