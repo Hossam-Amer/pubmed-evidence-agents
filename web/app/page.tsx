@@ -138,14 +138,21 @@ export default function Home() {
         </div>
         <div className="grid gap-4">
           <figure className="overflow-hidden rounded-2xl border border-slate-200/70 bg-slate-950 shadow-[0_1px_2px_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)]">
+            <div className="border-b border-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-white/70">
+              Demo video
+            </div>
             <video
               src="/pubmed-evidence-agents-demo.mp4"
               className="aspect-video w-full bg-slate-950 object-contain"
+              autoPlay
               controls
+              loop
               muted
               playsInline
               preload="metadata"
-            />
+            >
+              <a href="/pubmed-evidence-agents-demo.mp4">Open demo video</a>
+            </video>
           </figure>
           <figure className="overflow-hidden rounded-2xl border border-slate-200/70 bg-white shadow-[0_1px_2px_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)]">
             <img
