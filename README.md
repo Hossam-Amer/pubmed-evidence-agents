@@ -4,13 +4,15 @@ Medical Evidence Retrieval Agent for clinical questions. The app extracts a PICO
 
 ## Demo
 
-<video src="web/public/pubmed-evidence-agents-demo.mp4" controls width="100%">
-  <a href="web/public/pubmed-evidence-agents-demo.mp4">Watch the demo video</a>
+<video src="https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4" controls width="100%">
+  <a href="https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4">Watch the demo video</a>
 </video>
+
+[Watch the demo video](https://github.com/Hossam-Amer/pubmed-evidence-agents/raw/main/web/public/pubmed-evidence-agents-demo.mp4)
 
 ## Pipeline
 
-<img src="web/public/pipeline-diagram.svg" alt="pubmed-evidence-agents pipeline diagram" width="100%">
+<img src="https://raw.githubusercontent.com/Hossam-Amer/pubmed-evidence-agents/main/web/public/pipeline-diagram.svg" alt="pubmed-evidence-agents pipeline diagram" width="100%">
 
 ## What is included
 
