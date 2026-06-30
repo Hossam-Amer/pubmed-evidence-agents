@@ -4,6 +4,8 @@ Medical Evidence Retrieval Agent for clinical questions. The app extracts a PICO
 
 ## Demo
 
+https://github.com/user-attachments/assets/93e250f4-4f34-4a0c-96e1-66e632fbe1de
+
 [Watch the full demo video](web/public/pubmed-evidence-agents-demo.mp4)
 
 ## Pipeline
