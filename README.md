@@ -17,7 +17,6 @@ Medical Evidence Retrieval Agent for clinical questions. The app extracts a PICO
 - PubMed retrieval, reciprocal-rank fusion, cross-encoder reranking, answer generation, verification, confidence scoring, and cache support
 - GitHub Actions CI for backend smoke tests and frontend production builds
 - Demo video for the GitHub README at `web/public/pubmed-evidence-agents-demo.mp4`
-- Animated demo preview for the GitHub README at `web/public/pubmed-evidence-agents-demo.gif`
 - Pipeline SVG for the GitHub README at `web/public/pipeline-diagram.svg`
 
 ## Prerequisites
