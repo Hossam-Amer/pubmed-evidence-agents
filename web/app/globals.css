@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply text-slate-800 antialiased;
+  background-color: #f6f7fb;
+  background-image:
+    radial-gradient(48rem 32rem at 108% -8%, rgba(99, 102, 241, 0.12), transparent 60%),
+    radial-gradient(42rem 32rem at -8% 0%, rgba(139, 92, 246, 0.1), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* Thin, quiet scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+@layer components {
+  .brand-gradient {
+    @apply bg-gradient-to-br from-indigo-600 to-violet-600;
+  }
+  .brand-text {
+    @apply bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent;
+  }
+  .card {
+    @apply rounded-2xl border border-slate-200/70 bg-white/90 shadow-[0_1px_2px_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)] backdrop-blur-sm;
+  }
+  .focus-ring {
+    @apply focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-br from-indigo-600 to-violet-600 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 transition hover:brightness-105 active:brightness-95 disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-900;
+  }
+}
+
+/* Inline citation markers in the evidence explorer */
+.cite-marker {
+  @apply cursor-pointer rounded px-0.5 font-semibold text-indigo-600 transition-colors;
+}
+.cite-marker:hover,
+.cite-marker[data-active="true"] {
+  @apply bg-indigo-100 text-indigo-800;
+}

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs and runtime output
+*.log
+*.err.log
+*.mp4
+!web/public/pubmed-evidence-agents-demo.mp4
+artifacts/
+
+# Local automation unrelated to this app release
+job_automation/
+JOB_AUTOMATION.md
+.github/workflows/job-automation.yml
+
+# Private/local planning notes
+PLAN.md
+PRD.md
+UI_PLAN.md
+pipeline.mmd
+pubmed-evidence-agents/RETRIEVAL_PLAN.md
+
+# Local model/cache output
+.cache/
+pubmed-evidence-agents/.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+CLAUDE.md
