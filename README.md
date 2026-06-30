@@ -113,20 +113,6 @@ PLAN.md                    Build plan
 UI_PLAN.md                 Frontend plan
 ```
 
-## Preparing a GitHub Push
-
-This folder is ready to become the repository root.
-
-```bash
-git init
-git add .
-git commit -m "Initial pubmed evidence agent"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-Secrets are intentionally ignored by `.gitignore`. Do not commit `.env`, `.env.local`, local model caches, logs, `.next/`, or `node_modules/`.
 
 ## Notes
 
