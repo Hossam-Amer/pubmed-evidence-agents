@@ -122,48 +122,6 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="mb-6 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(320px,460px)] lg:items-stretch">
-        <div className="flex min-h-[260px] flex-col justify-center rounded-2xl border border-slate-200/70 bg-white/85 p-6 shadow-[0_1px_2px_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)]">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-indigo-600">
-            Evidence pipeline
-          </p>
-          <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-            Ask a clinical question and inspect the evidence trail.
-          </h2>
-          <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-600">
-            The system turns a case into PICO queries, retrieves PubMed abstracts,
-            reranks them, generates a cited answer, and verifies each claim against
-            the source passages.
-          </p>
-        </div>
-        <div className="grid gap-4">
-          <figure className="overflow-hidden rounded-2xl border border-slate-200/70 bg-slate-950 shadow-[0_1px_2px_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)]">
-            <div className="border-b border-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-white/70">
-              Demo video
-            </div>
-            <video
-              src="/pubmed-evidence-agents-demo.mp4"
-              className="aspect-video w-full bg-slate-950 object-contain"
-              autoPlay
-              controls
-              loop
-              muted
-              playsInline
-              preload="metadata"
-            >
-              <a href="/pubmed-evidence-agents-demo.mp4">Open demo video</a>
-            </video>
-          </figure>
-          <figure className="overflow-hidden rounded-2xl border border-slate-200/70 bg-white shadow-[0_1px_2px_rgba(15,23,42,0.04),0_8px_24px_-12px_rgba(15,23,42,0.12)]">
-            <img
-              src="/pipeline-diagram.svg"
-              alt="pubmed-evidence-agents retrieval, generation, and verification pipeline"
-              className="max-h-[240px] w-full object-contain p-4"
-            />
-          </figure>
-        </div>
-      </section>
-
       <Card icon={Stethoscope} title="Clinical question">
         <QueryForm onSubmit={(t) => run(t)} onCancel={cancel} running={running} />
       </Card>

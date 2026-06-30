@@ -2,14 +2,24 @@
 
 Medical Evidence Retrieval Agent for clinical questions. The app extracts a PICO query from a free-text case, retrieves PubMed evidence with hybrid MedCPT and BM25 search, reranks evidence with a MedCPT cross-encoder, generates a cited answer, and verifies the answer against retrieved source passages.
 
+## Demo
+
+<video src="web/public/pubmed-evidence-agents-demo.mp4" controls width="100%">
+  <a href="web/public/pubmed-evidence-agents-demo.mp4">Watch the demo video</a>
+</video>
+
+## Pipeline
+
+<img src="web/public/pipeline-diagram.svg" alt="pubmed-evidence-agents pipeline diagram" width="100%">
+
 ## What is included
 
 - FastAPI backend in `pubmed-evidence-agents/`
 - Next.js frontend in `web/`
 - PubMed retrieval, reciprocal-rank fusion, cross-encoder reranking, answer generation, verification, confidence scoring, and cache support
 - GitHub Actions CI for backend smoke tests and frontend production builds
-- Demo video shown on the landing page at `web/public/pubmed-evidence-agents-demo.mp4`
-- Pipeline SVG shown on the landing page at `web/public/pipeline-diagram.svg`
+- Demo video for the GitHub README at `web/public/pubmed-evidence-agents-demo.mp4`
+- Pipeline SVG for the GitHub README at `web/public/pipeline-diagram.svg`
 
 ## Prerequisites
 
